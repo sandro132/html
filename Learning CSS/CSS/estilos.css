@@ -1,0 +1,17 @@
+h1{
+    color: blueviolet;
+    font-size: 24px; /*estilo de las letras*/
+    text-align: center; /*posicion*/
+
+}
+
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;/* tipo de letra*/
+
+
+}
+
+p{
+    color: red;
+}
