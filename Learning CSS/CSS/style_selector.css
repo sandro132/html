@@ -1,0 +1,25 @@
+*{
+    color: blueviolet;
+}
+
+p{
+    color: green;
+}
+
+h1{
+    color: orangered;
+}
+
+.first_parrafo{
+    color: yellowgreen;
+    font-size: 18px;
+}
+
+.second_parrafo{
+    color: blueviolet;
+    font-size: 24px;
+}
+
+#subtitulo{
+    color: grey;
+}
