@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    color: #adff2f;
+    text-align: center;
+}
+
+p{
+    text-align: justify; /*el  justify sirve para ajustar el texto*/
+    text-transform: lowercase; /*cambia las letras mayusculas en minusculas, el uppercase hace todo lo contrario*/
+    font-size: 25px; /*sirve para ajustar el tamaño de la letra*/
+    font-style: italic; /*sirve para el estilo del texto*/
+    font-weight: bold;/*sirve para poner el texto en negrita*/
+    text-indent: 40px;/*sirve para identar el texto (genera un espacio al inicio del texto*/
+    line-height: 1.7; /*genera espacio entre los espacios*/
+    word-spacing: 10px;/*genera espacio entre los espacios*/
+    text-shadow: 4px 3px 2px rgba(255, 0, 0, 0.3);/*genera sombras al texto*/
+}
+
+a{
+    text-decoration: none;/*quita el subrayado del texto*/
+    text-transform: capitalize;/*la primera letra se vuelve en mayuscula*/
+    font-size: 20px;
+    letter-spacing: 3px;/*genera espacios entre las letras*/
+
+}
+
+a:hover{
+    text-decoration: underline;/*genera el subrayado por debajo al momento de pasar con el mouse */
+}

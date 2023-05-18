@@ -1,0 +1,44 @@
+body{
+    background: firebrick !important;
+    font-family: Arial, sans-serif;
+}
+
+div{
+    margin: 20px 0;
+}
+
+.btn{
+    background: rgb(66, 4, 75);
+    color: rgb(198, 217, 241);
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-style: none;
+}
+
+.btn:hover{
+    opacity: 0.8;/*crea opacidad en el boton al pasar el mouse*/
+    cursor: pointer !important;/*al pasar por encima el mouse se cambia por una mano*/
+
+}
+
+/*tamaño*/
+.small{
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.mediun{
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.big{
+    font-size: 14px;
+    padding: 20px 25px;
+}
+
+/*colores*/
+
+.azul{background: blue;}
+.verde{background: green;}
+.rojo{background: red;}
