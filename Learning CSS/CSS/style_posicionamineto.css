@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.caja{
+    background: hotpink;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+     /*pasa todo a horizontal*/
+}
+
+.position{
+    background: khaki;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+.caja-padre{
+    margin: 20px;
+    background: royalblue;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}

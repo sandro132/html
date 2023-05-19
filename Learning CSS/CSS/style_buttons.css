@@ -42,3 +42,6 @@ div{
 .azul{background: blue;}
 .verde{background: green;}
 .rojo{background: red;}
+
+/* Efectos */
+.border-radius{border-radius: 30px;} /*bordes circulares*/
