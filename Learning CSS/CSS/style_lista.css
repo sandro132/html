@@ -1,0 +1,20 @@
+body{
+    font-family: Arial;
+}
+
+/*Listas desordenadas 
+lsit-style: none, disc circle, square
+*/
+
+ul{
+    list-style: square;
+}
+
+/*Listas Ordenadas
+list-style. none, decimal-leading-zeo, lower-roman, upper
+           lower-latin, upper-latin
+*/
+
+ol{
+    list-style: lower-latin;
+}

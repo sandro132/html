@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.main{
+    background: maroon;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden; 
+}
+
+.caja{
+    width: 500px;
+    height: 200px;
+    margin: 20px;
+}
+
+.img{
+    float: left;
+    width: auto;
+}
+
+.text{
+    float: left;
+}
+
+/*Estilos para articulos*/
+
+.articulo{
+    background: mediumaquamarine;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.articulo h2{
+    padding: 10px;
+    text-align: center;
+}
+
+.articulo img{
+    float: right;
+}
