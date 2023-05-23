@@ -127,3 +127,163 @@ body{
 .main-container__link:hover{
   background-color:rgb(61, 212, 61);
 }
+
+/* PAGINA DE BLOGS */
+
+.blogs-main{
+  display: grid;
+}
+
+.news{
+  background-color: #e6e9ed;
+  padding: 10px 80px 40px;
+}
+
+.news-content{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 2fr;
+}
+
+.news-content img{
+  grid-column: 1;
+  width: 85%;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.news-info{
+  grid-column: 2;
+
+}
+
+.news-info h2{
+  margin-top: 20px;
+}
+
+.news-info p{
+  margin: 30px 0;
+}
+
+
+/* BOTON DE BLOGS */
+
+.blogs-btn{
+  text-decoration: none;
+  color: #000;
+  border: 1px solid rgb(0, 204, 0);
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+/* POSTS */
+
+.posts{
+  padding: 0 80px 40px;
+}
+
+.post h3{
+  border-bottom: 1px solid #cdd2da;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.post-blog{
+  display: inline-block;
+  padding: 15px;
+  max-width: 32%;
+  margin-bottom: 50px;
+}
+
+.post-blog img{
+  width: 100%;
+}
+
+.post-blog h4{
+  margin: 20px 0;
+}
+
+.post-blog p{
+  margin-bottom: 35px;
+}
+
+/* FOOTER */
+
+footer{
+  width: 100%;
+  height: 80px;
+  background-color: #22272d;
+  border-top: 35px solid rgb(0, 204, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p{
+  color: #fff;
+}
+
+/* BLOG */
+
+.main-blog{
+  padding: 0 80px 40px;
+}
+
+.main-blog__content img{
+  display: inline-block;
+  padding: 0 50px 40px;
+  width: 100%;
+}
+
+.blog-content__article{
+  padding: 0 80px 40px;
+}
+
+.blog-content__article h4{
+  border-bottom: 1px solid #cdd2da;
+  padding: 20px 0;
+}
+
+.blog-content__article h1{
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+
+/* CONTACTO */
+
+.section-contact{
+  width: 100%;
+  background-color: #e6e9ed;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px 50px;
+}
+
+.contact{
+  display: flex;
+  margin: 20px 0 20px 20px;
+}
+
+.contact img{
+  width: 100px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.contact-info{
+  padding: 20px 0;
+  width: 300px;
+}
+
+.contact-info a{
+  text-decoration: none;
+  color: #000;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+.contact-info p{
+  margin-top: 10px;
+  
+}
