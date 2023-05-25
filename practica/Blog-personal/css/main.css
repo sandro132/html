@@ -287,3 +287,41 @@ footer p{
   margin-top: 10px;
   
 }
+
+/* PERFIL */
+.profile{
+  padding: 70px 100px;
+  background-color: #e6e9ed;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.profile img{
+  width: 320px;
+  margin-right: 30px;
+}
+
+.proyect-container{
+  padding: 0 80px 40px 80px;
+}
+
+.proyect-container h3{
+  border-bottom: 1px solid #cdd2da;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.proyect{
+  display: inline-block;
+  padding: 15px;
+  max-width: 32%;
+  margin-bottom: 50px;
+}
+
+.proyect h4{
+  margin: 20px 0;
+}
+
+.proyect p{
+  margin-bottom: 35px;
+}
